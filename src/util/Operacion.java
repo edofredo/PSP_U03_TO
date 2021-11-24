@@ -5,13 +5,14 @@
  */
 package util;
 
+import java.io.Serializable;
 import java.util.Date;
 
 /**
  *
  * @author Cristian
  */
-public class Operacion {
+public class Operacion implements Serializable{
     
     private String operacion;
     private int cantidad;
