@@ -18,9 +18,14 @@ public class Operacion implements Serializable{
     private int cantidad;
     private Date fecha;
 
+    public Operacion(String op){
+        operacion = op;
+        fecha = new Date();
+    }
+    
     public Operacion(String op, int cant){
         operacion = op;
-        cantidad = cantidad;
+        cantidad = cant;
         fecha = new Date();
     }     
     
