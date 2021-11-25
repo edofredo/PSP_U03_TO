@@ -7,7 +7,6 @@ package util;
 
 import java.io.Serializable;
 import java.util.Date;
-
 /**
  *
  * @author Cristian
@@ -51,10 +50,5 @@ public class Operacion implements Serializable{
 
     public void setFecha(Date fecha) {
         this.fecha = fecha;
-    }
-    
-    
-          
-    
-    
+    }  
 }
